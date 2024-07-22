@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #191a19; /* Color de fondo principal */
+    color: #bbab99; /* Color de texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vaultvision-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6e5642; /* Color para resaltar el título */
+}
+
+.btn {
+    background-color: #6f6c6b; /* Color de fondo para botones */
+    border-color: #59463c; /* Color de borde para botones */
+    color: #bbab99; /* Color de texto para botones */
+}
+
+.btn-primary {
+    background-color: #6e5642; /* Color de fondo para botones primarios */
+    border-color: #6e5642; /* Color de borde para botones primarios */
+}
+
+.table {
+    background-color: #191a19; /* Color de fondo para tablas */
+    color: #bbab99; /* Color de texto para tablas */
+}
+
+.chart-container {
+    position: relative;
+    height: 300px; /* Ajustar el alto de la gráfica */
+    width: 100%;
+}
+
+/* Estilos específicos para la gráfica Chart.js */
+#activacionesChart {
+    background-color: #191a19; /* Color de fondo para la gráfica */
+}
